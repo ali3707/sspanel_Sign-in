@@ -17,6 +17,6 @@ SCKEY   可选设置，微信推送SCKEY码，详情参见http://sc.ftqq.com/
 
 KTKEY   可选设置，QQ推送Skey码，详情参见https://cp.xuthus.cc/
 
-根据https://github.com/liuyq917/sspanel_Sign-in代码修改
+根据 https://github.com/liuyq917/sspanel_Sign-in   代码修改
 
 修改为同一个ssr地址，多个email，同一个密码的方式进行
