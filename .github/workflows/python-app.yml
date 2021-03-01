@@ -1,4 +1,4 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# This workflow will install Py6thon dependencies, run tests and lint with a single version of Python
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
 name: 签到
@@ -9,9 +9,10 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: 01 13 * * *
+    - cron: 01 16 * * *
   watch:
     types: started
+  workflow_dispatch:
 jobs:
   build:
 
