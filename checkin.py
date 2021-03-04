@@ -82,7 +82,7 @@ class SspanelQd(object):
             return
         server_url = "https://sctapi.ftqq.com/" + str(self.sckey) + ".send"
         data = {
-                'text': "机场签到完成，点击查看详细信息~",
+                'title': "机场签到完成，点击查看详细信息~",
                 'desp': msg
             }
         requests.post(server_url, data=data)
